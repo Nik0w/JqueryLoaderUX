@@ -15,22 +15,25 @@ What things you need to install the software and how to install them
 
 ### Installing
 
-Very simple and use to use:
+Very simple and easy to use:
 
 Clone the repo :
 
 ```
 https://github.com/Nik0w/JqueryLoaderUX
 ```
+
 Install Jquery and fontawesome to your project
 
-### And coding style tests
+Now, all of the <a> of your code will create an animated css loader,
+don't forget the css :).
 
-Explain what these tests test and why
+You can use the
 
 ```
-Give an example
+.no-loader
 ```
+class to not include tagged links.
 
 ## Built With
 
