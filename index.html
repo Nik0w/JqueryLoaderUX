@@ -3,32 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Jquery Page Loader UX</title>
-	 <link href="style.css" rel="stylesheet">
+ 	<link href="style.css" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+ 	<style>
+ 		body{
+ 			font-family: 'Roboto', sans-serif;
+ 			text-align: center;
+ 		}
+ 		a{
+ 			display: block;
+ 		}
+ 	</style>
 </head>
 <body>
+
+	<h1>Simple page to test</h1>
+	<h2>Jquery Page Loader UX</h2>
+
+	<a href="#">This is a link <b>without</b> <i>.no-loader</i> class</a>
+
+	<a href="#" class="no-loader">This is a link <b>with</b> <i>.no-loader</i> class</a>
+
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-	<script>
-		$(document).ready(function(){
-
-			//_______________________________
-			//
-			//            UX
-			//_______________________________
-
-			//Page switching loader
-
-			$('a').not('.no-loader').on('click',function(ev){
-				//ev.preventDefault();
-				$('body').prepend('<div class="pageLoader"><i class="fas fa-spinner"></i></div>');
-
-			});
-
-		});
-
-	</script>
+	<script src="script.js"></script>
 	
 </body>
 </html>

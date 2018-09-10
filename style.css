@@ -28,7 +28,7 @@
     top: 50%;
     position: absolute;
     margin-left: -25px;
-    color: #ffb500;
+    color: #181818;
     -webkit-animation: rotate360 1s ease infinite;
 	        animation: rotate360 1s ease infinite;
 }
