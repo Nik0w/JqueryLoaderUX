@@ -1,6 +1,4 @@
-# Project Title
-
-Jquery Loader UX
+# Jquery Loader UX
 
 ## Getting Started
 
